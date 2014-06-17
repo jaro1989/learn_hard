@@ -52,8 +52,4 @@ function bike_array_key_exists($keySearch, array $array) {
     return $result;
 }
 
-print_r(bike_array_key_exists("xxx", array("xx" => "yy", "zz" => "uu")));
-
-
-echo bike_str_repeat('ttt555', 3);
 
