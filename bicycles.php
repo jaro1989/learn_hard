@@ -21,6 +21,7 @@ function bike_strlen($string) {
     for ($i = 0;; $i++) {
         if (!isset($string[$i])) {
             break;
+            
         }
     }
     return $i;
